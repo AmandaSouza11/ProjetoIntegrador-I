@@ -1,0 +1,13 @@
+.box {
+    text-align: center;
+}
+
+img {
+    margin-top: 50px; 
+}
+
+.email, .senha, button {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}

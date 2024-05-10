@@ -1,0 +1,29 @@
+body {
+
+    background-color: azure;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.box input {
+    margin-bottom: 30px;
+    width: 190px;
+}
+
+.voltar-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 120px; 
+    height: 40px; 
+    font-size: 16px; 
+}

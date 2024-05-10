@@ -1,0 +1,32 @@
+.box {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.ra {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.buscar-btn {
+    width: auto;
+    height: 25px;
+    font-size: 16px;
+    vertical-align: top; 
+}
+
+.voltar-btn {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+}
+
+#alunoInfo {
+    text-align: left; 
+    margin-top: 20px; 
+    font-family: Arial, sans-serif;
+}

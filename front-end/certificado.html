@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado</title>
+    <link rel="stylesheet" href="certificado_style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="./certificado.js" defer></script>
+    
+
+</head>
+
+<body>
+
+    <div id="info">
+        <h3 class="emf">EMEF Vianna</h3>
+        <h3 class="moog">Moog</h3>
+    
+        <h2 class="dia" id="dia"></h2>
+        <h2 class="mes" id="mes"></h2>
+        <h2 class="ano" id="ano"></h2>
+
+        <img src="imagens/assinatura.png" class="assinatura-img">
+
+        <img src="imagens/certificado.jpg" class="certificado-img">
+
+
+            <!-- Aqui serão exibidas as informações do aluno -->
+            <div class="aluno-nome-box">
+                <p class="aluno-nome"></p>
+            </div>
+        
+
+    </div>
+    
+
+    <div class="box">
+
+        <form action="tela_inicial.html">
+            <button type="submit" class="voltar-btn">Voltar</button>
+        </form>
+
+    </div>
+
+    <div id="pesquisa" class="box">
+        <form action="/aluno/certificado/{ra}" id="formBuscar">
+            <input type="text" id="raInput" class="raInput" name="raInput" placeholder="Buscar por RA">
+            <button type="submit" class="buscar-btn">Buscar</button>
+        </form>
+    </div>
+
+
+    <button id="imprimir">Imprimir Certificado</button>
+ 
+</body>
+</html>

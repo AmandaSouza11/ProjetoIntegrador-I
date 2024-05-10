@@ -1,0 +1,102 @@
+.box {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.serieInput, .turmaInput {
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.buscar-btn {
+    width: auto;
+    height: 35px;
+    font-size: 16px;
+    vertical-align: top; 
+}
+
+.voltar-btn {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+}
+
+.titulos {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 120px 220px 90px 90px 120px; 
+    grid-column-gap: 30px; 
+    padding: 10px;
+    justify-content: space-between; 
+}
+
+.titulos h3:nth-child(3),
+.titulos h3:nth-child(4) {
+    margin-right: 10px; 
+}
+
+.titulos h3:nth-child(2),
+.titulos h3:nth-child(3) {
+    margin-right: 10px; 
+}
+.titulos h3 {
+    margin: 0;
+}
+
+.hr.separador {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+.alunos {
+    padding: 10px;
+}
+
+.ra {
+    width: 120px; 
+    text-align: left; 
+}
+
+.nome {
+    width: 220px; 
+    text-align: left; 
+}
+
+.serie {
+    width: 90px; 
+    text-align: left; 
+}
+
+.turma {
+    width: 90px; 
+    text-align: left; 
+}
+
+.status {
+    width: 120px; 
+    text-align: left; 
+}
+
+.aluno {
+    display: grid;
+    grid-template-columns: repeat(5, auto); 
+    grid-column-gap: 190px; 
+    padding: 10px;
+    align-items: center; 
+    font-size: 20px;
+}
+
+.aluno p {
+    margin: 0;
+}
+
+.serie,
+.turma,
+.status {
+    text-align: right; 
+}

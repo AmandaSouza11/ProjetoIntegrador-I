@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações de um aluno</title>
+    <link rel="stylesheet" href="informacoes_style.css">
+    <script src="./informacoes.js" defer></script>
+</head>
+
+<body>
+
+    <div class="box">
+
+
+        <form action="/aluno/{ra}" id="formBuscar">
+            <input type="text" id="raInput" class="raInput" name="raInput" placeholder="Buscar por RA">
+            <button type="submit" class="buscar-btn">Buscar</button>
+        </form>
+
+        <div id="alunoInfo" class="box">
+            <!-- Aqui serão exibidas as informações do aluno -->
+        </div>
+
+        <form action="tela_inicial.html">
+            <button type="submit" class="voltar-btn">Voltar</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>

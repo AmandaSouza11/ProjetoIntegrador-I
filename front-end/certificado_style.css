@@ -1,0 +1,112 @@
+.voltar-btn {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    width: auto;
+    height: 40px;
+    font-size: 16px;
+}
+
+.certificado-img {
+    max-width: 50%; 
+    height: auto; 
+    float: right;
+    margin-right: 80px;
+    z-index: 1000;
+}
+
+.assinatura-img {
+    max-width: 10%; 
+    position: absolute;
+    top: 78%;
+    right: 17.5%;
+    transform: translate(50%, -50%);
+   
+}
+
+#pesquisa {
+    margin-top: 90px; 
+    margin-left: 80px;
+}
+
+.raInput {
+    height: 30px;
+    width: 100px; 
+    padding: 0 10px;
+}
+
+.buscar-btn {
+    height: 33px;
+    font-size: 16px;
+    vertical-align: top; 
+}
+
+#imprimir {
+    position: relative;
+    top: 30px; /* Coloca o botão abaixo da barra de pesquisa */
+    left: 9%; /* Centraliza horizontalmente */
+    transform: translateX(-50%);
+    height: 40px;
+    font-size: 16px;
+}
+
+
+.emf {
+    position: absolute;
+    top: 54%;
+    right: 14.5%;
+    transform: translate(50%, -50%);
+    color: black; 
+    font-size: 34px; 
+    z-index: 1000; 
+}
+
+.moog {
+    position: absolute;
+    top: 65%;
+    right: 43%;
+    transform: translate(50%, -50%);
+    color: black;
+    font-size: 34px; 
+    z-index: 1000; 
+}
+
+.aluno-nome-box {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 35px; 
+}
+
+.dia {
+    position: absolute;
+    top: 65%;
+    right: 35%;
+    transform: translate(50%, -50%);
+    color: black;
+    font-size: 34px; 
+    z-index: 1000; 
+}
+
+.mes {
+    position: absolute;
+    top: 65%;
+    right: 27%;
+    transform: translate(50%, -50%);
+    color: black;
+    font-size: 34px; 
+    z-index: 1000; 
+}
+
+.ano {
+    position: absolute;
+    top: 65%;
+    right: 18%;
+    transform: translate(50%, -50%);
+    color: black;
+    font-size: 34px; 
+    z-index: 1000; 
+}
+
